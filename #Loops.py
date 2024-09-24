@@ -1,7 +1,23 @@
 #Loops and indents
 # Author: Flanny Xue
-# Date: 20-09-2024
-# Version 1
+# Date: 25-09-2024
+# Version 2
+#TODO:
+    # Get user input (ask the user for their name)
+    # Ask the user for two numbers
+    # Add the numbers together
+
+# Ask the user for thier name
+name = input ("What is your name?")
+print(f"Kia ora {name}.") #f stands for format. We are formatting the print statement.
+
+# Ask the user for two numbers
+num_1 = int(input("What is your favourite number?"))
+num_2 = int(input("What is your least favourite number?"))
+
+# Add numbers togther
+sum = (num_1 + num_2)
+print(f"The numbers added together equal to {sum}")
 
 
 # for loops, repeat for a set number of times.
